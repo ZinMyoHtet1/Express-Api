@@ -5,6 +5,7 @@ const phones = JSON.parse(fs.readFileSync("./jsons/phone.json", {
 }));
 
 module.exports = {
+<<<<<<< HEAD
     getAllPhones: (req, res)=> {
         res.status(200).json({
             status: "success",
@@ -17,6 +18,18 @@ module.exports = {
         const newPhone = {
             ...req.body,
             id: String(phones.length+1)
+=======
+    getPhones: (req, res)=> {
+        res.status(200).json({
+            status: "success", data: {
+                phones
+            }})},
+
+    postPhones: (req, res)=> {
+        const newPhone = {
+            ...req.body,
+            id: phones.length+1
+>>>>>>> 866c3af16ef1658ebc5b001ca4fe7fa9114d9bf6
         }
 
         phones.push(newPhone);
@@ -28,6 +41,7 @@ module.exports = {
             }
             res.status(200).send("Created");
         })
+<<<<<<< HEAD
     },
     getPhoneById: (req,res)=>{
         const {id}=req.params;
@@ -113,5 +127,7 @@ module.exports = {
                 }
             });
         })
+=======
+>>>>>>> 866c3af16ef1658ebc5b001ca4fe7fa9114d9bf6
     }
 }

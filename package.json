@@ -9,7 +9,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^16.5.0",
+=======
+>>>>>>> 866c3af16ef1658ebc5b001ca4fe7fa9114d9bf6
     "express": "^5.1.0"
   }
 }
