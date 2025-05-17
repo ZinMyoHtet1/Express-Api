@@ -5,7 +5,6 @@ const phones = JSON.parse(fs.readFileSync("./jsons/phone.json", {
 }));
 
 module.exports = {
-<<<<<<< HEAD
     getAllPhones: (req, res)=> {
         res.status(200).json({
             status: "success",
@@ -13,121 +12,144 @@ module.exports = {
             data: {
                 phones
             }})},
+    checkId: (req, res,next, value)=> {
+    const phone = phones.find(ph=>ph.id === value)
+
+    if (!phone) {
+        res.status(404).json({
+            status: "fail",
+            message: `Not found any data with Id ${value}`
+        })
+        return;
+    }
+    next()
+},
 
     postNewPhone: (req, res)=> {
         const newPhone = {
             ...req.body,
-            id: String(phones.length+1)
-=======
-    getPhones: (req, res)=> {
-        res.status(200).json({
-            status: "success", data: {
-                phones
-            }})},
-
-    postPhones: (req, res)=> {
-        const newPhone = {
-            ...req.body,
-            id: phones.length+1
->>>>>>> 866c3af16ef1658ebc5b001ca4fe7fa9114d9bf6
-        }
+            id: String(phones.length+1)}
 
         phones.push(newPhone);
 
         fs.writeFile("./jsons/phone.json", JSON.stringify(phones), (err)=> {
             if (err) {
-                res.status(400).send(err.message)
+                res.status(400).json({
+                    status: "fail",
+                    message: "Failed to craete new phone"
+                })
                 return;
             }
-            res.status(200).send("Created");
-        })
-<<<<<<< HEAD
-    },
-    getPhoneById: (req,res)=>{
-        const {id}=req.params;
-        
-        const foundPhone=phones.find(ph=>ph.id ===id)
-        
-        if(!foundPhone){
-            res.status(404).json({
-                status: "fail",
-                message: `Not found any data with Id ${id}`
+            res.status(200).json({
+                status: "success",
+                data: {
+                    phone: newPhone
+                }
             })
-            return;
-        }
-        
+        })
+    },
+
+    getPhones: (req,
+        res)=> {
         res.status(200).json({
             status: "success",
-            data:{
+            data: {
+                phones
+            }})},
+
+    postPhones: (req,
+        res)=> {
+        const newPhone = {
+            ...req.body,
+            id: phones.length+1
+        }
+
+        phones.push(newPhone);
+
+        fs.writeFile("./jsons/phone.json",
+            JSON.stringify(phones),
+            (err)=> {
+                if (err) {
+                    res.status(400).send(err.message)
+                    return;
+                }
+                res.status(200).send("Created");
+            })
+    },
+    getPhoneById: (req,
+        res)=> {
+        const {
+            id
+        } = req.params;
+
+        const foundPhone = phones.find(ph=>ph.id === id)
+
+        res.status(200).json({
+            status: "success",
+            data: {
                 phone: foundPhone
             }
         })
     },
-    
-    updatePhoneById: (req,res)=>{
-        const {id}=req.params;
-        const updateData=req.body;
-        
-        const foundPhone=phones.find(ph=>ph.id ===id);
-        
-        if(!foundPhone){
-            res.status(404).json({
-                status: "fail",
-                message: `Not found any data with Id ${id}`
-            })
-            return;
-        }
-        
-        const index=phones.indexOf(foundPhone);
-        
-        const updatedPhone=Object.assign(foundPhone,updateData);
-        
-        phones[index]=updatedPhone;
-        
-        fs.writeFile("./jsons/phone.json", JSON.stringify(phones), (err)=> {
-            if (err) {
-                res.status(400).send(err.message)
-                return;
-            }
-            res.status(200).json({
-                status: "success",
-                data:{
-                    phone: updatedPhone
+
+    updatePhoneById: (req,
+        res)=> {
+        const {
+            id
+        } = req.params;
+        const updateData = req.body;
+
+        const foundPhone = phones.find(ph=>ph.id === id);
+
+        const index = phones.indexOf(foundPhone);
+
+        const updatedPhone = Object.assign(foundPhone,
+            updateData);
+
+        phones[index] = updatedPhone;
+
+        fs.writeFile("./jsons/phone.json",
+            JSON.stringify(phones),
+            (err)=> {
+                if (err) {
+                    res.status(400).send(err.message)
+                    return;
                 }
-            });
-        })
+                res.status(200).json({
+                    status: "success",
+                    data: {
+                        phone: updatedPhone
+                    }
+                });
+            })
     },
-    
-    deletePhoneById: (req,res)=>{
-        const {id}=req.params;
-        
-        const foundPhone=phones.find(ph=>ph.id ===id);
-        
-        if(!foundPhone){
-            res.status(404).json({
-                status: "fail",
-                message: `Not found any data with Id ${id}`
-            })
-            return;
-        }
-        
-        const index=phones.indexOf(foundPhone);
-        
-        phones.splice(index,1);
-        
-        fs.writeFile("./jsons/phone.json", JSON.stringify(phones), (err)=> {
-            if (err) {
-                res.status(400).send(err.message)
-                return;
-            }
-            res.status(200).json({
-                status: "success",
-                data:{
-                    phone: null
+
+    deletePhoneById: (req,
+        res)=> {
+        const {
+            id
+        } = req.params;
+
+        const foundPhone = phones.find(ph=>ph.id === id);
+
+        const index = phones.indexOf(foundPhone);
+
+        phones.splice(index,
+            1);
+
+        fs.writeFile("./jsons/phone.json",
+            JSON.stringify(phones),
+            (err)=> {
+                if (err) {
+                    res.status(400).send(err.message)
+                    return;
                 }
-            });
-        })
-=======
->>>>>>> 866c3af16ef1658ebc5b001ca4fe7fa9114d9bf6
+                res.status(200).json({
+                    status: "success",
+                    data: {
+                        phone: null
+                    }
+                });
+            })
     }
 }
