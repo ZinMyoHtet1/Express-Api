@@ -1,155 +1,93 @@
-const fs = require("fs");
-
-const phones = JSON.parse(fs.readFileSync("./jsons/phone.json", {
-    encoding: "utf8", flag: "r"
-}));
+const Phone = require("./../models/phoneModel.js")
 
 module.exports = {
-    getAllPhones: (req, res)=> {
+    getAllPhones:async (req, res)=> {
+        try{
+            const phones=await Phone.find();
         res.status(200).json({
-            status: "success",
-            requestTime: req.requestTime,
-            data: {
-                phones
-            }})},
-    checkId: (req, res,next, value)=> {
-    const phone = phones.find(ph=>ph.id === value)
+                status: "success",
+                data:{
+                    phones
+                }
+            })
+        
+        }catch(err){
+            res.status(404).json({
+                status: "fail",
+                message: err.message
+            })
+        }
+        
+    },
 
-    if (!phone) {
-        res.status(404).json({
-            status: "fail",
-            message: `Not found any data with Id ${value}`
-        })
-        return;
-    }
-    next()
-},
-
-    postNewPhone: (req, res)=> {
-        const newPhone = {
-            ...req.body,
-            id: String(phones.length+1)}
-
-        phones.push(newPhone);
-
-        fs.writeFile("./jsons/phone.json", JSON.stringify(phones), (err)=> {
-            if (err) {
-                res.status(400).json({
-                    status: "fail",
-                    message: "Failed to craete new phone"
-                })
-                return;
-            }
+    postNewPhone:async (req, res)=> {
+        try{
+            const phone=await Phone.create(req.body);
+            
             res.status(200).json({
                 status: "success",
-                data: {
-                    phone: newPhone
+                data:{
+                    phone
                 }
             })
-        })
-    },
-
-    getPhones: (req,
-        res)=> {
-        res.status(200).json({
-            status: "success",
-            data: {
-                phones
-            }})},
-
-    postPhones: (req,
-        res)=> {
-        const newPhone = {
-            ...req.body,
-            id: phones.length+1
+        }catch(err){
+            res.status(404).json({
+                status: "fail",
+                message: err.message
+            })
         }
-
-        phones.push(newPhone);
-
-        fs.writeFile("./jsons/phone.json",
-            JSON.stringify(phones),
-            (err)=> {
-                if (err) {
-                    res.status(400).send(err.message)
-                    return;
-                }
-                res.status(200).send("Created");
-            })
     },
-    getPhoneById: (req,
-        res)=> {
-        const {
-            id
-        } = req.params;
-
-        const foundPhone = phones.find(ph=>ph.id === id)
-
-        res.status(200).json({
-            status: "success",
-            data: {
-                phone: foundPhone
-            }
-        })
+    
+    getPhoneById:async (req, res)=> {
+        try{
+            const phone=await Phone.findById(req.params.id)
+            
+            res.status(200).json({
+                status: "success",
+                data:{
+                    phone
+                }
+            })
+        }catch(err){
+            res.status(404).json({
+                status: "fail",
+                message: err.message
+            })
+        }
     },
 
-    updatePhoneById: (req,
-        res)=> {
-        const {
-            id
-        } = req.params;
-        const updateData = req.body;
-
-        const foundPhone = phones.find(ph=>ph.id === id);
-
-        const index = phones.indexOf(foundPhone);
-
-        const updatedPhone = Object.assign(foundPhone,
-            updateData);
-
-        phones[index] = updatedPhone;
-
-        fs.writeFile("./jsons/phone.json",
-            JSON.stringify(phones),
-            (err)=> {
-                if (err) {
-                    res.status(400).send(err.message)
-                    return;
+    updatePhoneById:async (req, res)=> {
+        try{
+            const phone=await Phone.findByIdAndUpdate(req.params.id,req.body,{new: true,runValidators: true})
+            
+            res.status(200).json({
+                status: "success",
+                data:{
+                    phone
                 }
-                res.status(200).json({
-                    status: "success",
-                    data: {
-                        phone: updatedPhone
-                    }
-                });
             })
+        }catch(err){
+            res.status(404).json({
+                status: "fail",
+                message: err.message
+            })
+        }
     },
 
-    deletePhoneById: (req,
-        res)=> {
-        const {
-            id
-        } = req.params;
-
-        const foundPhone = phones.find(ph=>ph.id === id);
-
-        const index = phones.indexOf(foundPhone);
-
-        phones.splice(index,
-            1);
-
-        fs.writeFile("./jsons/phone.json",
-            JSON.stringify(phones),
-            (err)=> {
-                if (err) {
-                    res.status(400).send(err.message)
-                    return;
-                }
-                res.status(200).json({
-                    status: "success",
-                    data: {
-                        phone: null
-                    }
-                });
+    deletePhoneById: async(req, res)=> {
+        try{
+            const phone=await Phone.findByIdAndDelete(req.params.id)
+            
+            res.status(204).json({
+                status: "success",
+                data:null
             })
+        }catch(err){
+            res.status(404).json({
+                status: "fail",
+                message: err.message
+            })
+        }
     }
+    
 }

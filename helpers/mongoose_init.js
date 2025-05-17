@@ -1,10 +1,10 @@
 const mongoose=require("mongoose");
 
 mongoose.connect(process.env.MONGODB_URL)
-.then((conn)=>{
+.then(()=>{
     console.log("Connected to MongoDb.. ")
 })
-.catch(err=>{
+.catch((err)=>{
     console.log("MongoDb erroring "+ err.message)
 })
 
@@ -18,5 +18,5 @@ mongoose.connection.on("disconnected",()=>{
 
 process.on("SIGINT",async ()=>{
    await mongoose.connection.close();
-   process.close(0)
+   process.exit(0)
 })

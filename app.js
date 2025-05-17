@@ -1,5 +1,6 @@
 const express = require("express");
-const path= require("path")
+const path= require("path");
+const morgan=require("morgan")
 const dotenv = require("dotenv");
 dotenv.config({path: "./config.env"});
 
@@ -10,6 +11,10 @@ const phoneRoutes=require("./routes/phoneRoutes")
 const app = express();
 
 const port = process.env.PORT || 8000;
+
+if(process.env.MODE=== "development"){
+    app.use(morgan("dev"))
+}
 
 app.use(express.json())
 app.use(express.static("./public"))
