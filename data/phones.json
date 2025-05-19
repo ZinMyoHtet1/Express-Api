@@ -1,0 +1,1395 @@
+[{
+    "name": "Samsung Galaxy S21 FE",
+    "brand": "Samsung",
+    "price": 699,
+    "currency": "USD",
+    "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990ezgainu/gallery/in-galaxy-s21-fe-5g-g990-412703-sm-g990ezgainu-534117215?$1300_1038_PNG$",
+    "description": "Fan Edition smartphone with flagship features.",
+    "specifications": {
+        "display": "6.4-inch Dynamic AMOLED 2X, 120Hz",
+        "processor": "Exynos 2100 / Snapdragon 888",
+        "RAM": "6GB / 8GB",
+        "storage": "128GB / 256GB",
+        "battery": "4500 mAh",
+        "camera": "12MP primary, 12MP ultra-wide, 8MP telephoto"
+    },
+    "releaseYear": 2022
+},
+    {
+        "name": "Apple iPhone 13",
+        "brand": "Apple",
+        "price": 799,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Powerful smartphone with A15 Bionic chip.",
+        "specifications": {
+            "display": "6.1-inch Super Retina XDR",
+            "processor": "A15 Bionic chip",
+            "RAM": "4GB",
+            "storage": "128GB / 256GB / 512GB",
+            "battery": "3240 mAh",
+            "camera": "12MP dual-camera system"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Google Pixel 5",
+        "brand": "Google",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_5_just_black_key.jpg",
+        "description": "Compact smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "6.0-inch OLED, 90Hz",
+            "processor": "Qualcomm Snapdragon 765G",
+            "RAM": "8GB",
+            "storage": "128GB",
+            "battery": "4080 mAh",
+            "camera": "12.2MP primary, 16MP ultra-wide"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "OnePlus 9",
+        "brand": "OnePlus",
+        "price": 729,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/202103/23/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Flagship smartphone with Hasselblad camera partnership.",
+        "specifications": {
+            "display": "6.55-inch Fluid AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "48MP primary, 50MP ultra-wide, 2MP monochrome"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Xiaomi Mi 11",
+        "brand": "Xiaomi",
+        "price": 749,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi11/mi11-hero.png",
+        "description": "Premium smartphone with a stunning display and camera.",
+        "specifications": {
+            "display": "6.81-inch AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4600 mAh",
+            "camera": "108MP primary, 13MP ultra-wide, 5MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Sony Xperia 5 III",
+        "brand": "Sony",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://www.sony.com/image/ea63f1a4297de248e2d3992b848ea1ab?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
+        "description": "Compact flagship smartphone with pro-grade camera features.",
+        "specifications": {
+            "display": "6.1-inch OLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "12MP triple camera with Zeiss optics"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Nokia G20",
+        "brand": "Nokia",
+        "price": 199,
+        "currency": "USD",
+        "image_url": "https://www.nokia.com/phones/files/2021/04/nokia-g20-hero.png",
+        "description": "Affordable smartphone with a long-lasting battery.",
+        "specifications": {
+            "display": "6.5-inch HD+ LCD",
+            "processor": "MediaTek Helio G35",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB",
+            "battery": "5050 mAh",
+            "camera": "48MP primary, 5MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Motorola Moto G Power (2022)",
+        "brand": "Motorola",
+        "price": 249,
+        "currency": "USD",
+        "image_url": "https://www.motorola.com/content/dam/motorola/global/en/products/moto-g-power-2022/moto-g-power-2022-hero.png",
+        "description": "Budget smartphone with impressive battery life.",
+        "specifications": {
+            "display": "6.5-inch HD+ LCD",
+            "processor": "MediaTek Helio G37",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "50MP primary, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2022
+    },
+    {
+        "name": "Realme GT Master Edition",
+        "brand": "Realme",
+        "price": 399,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-gt-master/images/realme-gt-master-hero.png",
+        "description": "Mid-range smartphone with a stylish design and good performance.",
+        "specifications": {
+            "display": "6.43-inch Super AMOLED, 120Hz",
+            "processor": "Snapdragon 778G",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4300 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Huawei P40 Pro",
+        "brand": "Huawei",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://consumer.huawei.com/content/dam/huawei-cbg/global/images/products/p40-pro/p40-pro-hero.png",
+        "description": "Flagship smartphone with advanced camera capabilities.",
+        "specifications": {
+            "display": "6.58-inch OLED, 90Hz",
+            "processor": "Kirin 990 5G",
+            "RAM": "8GB",
+            "storage": "256GB / 512GB",
+            "battery": "4200 mAh",
+            "camera": "50MP primary, 40MP ultra-wide, 12MP telephoto, 3D depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Oppo Find X3 Pro",
+        "brand": "Oppo",
+        "price": 1149,
+        "currency": "USD",
+        "image_url": "https://www.oppo.com/content/dam/oppo/global/2021/03/11/find-x3-pro-hero.png",
+        "description": "Premium smartphone with a unique design and powerful features.",
+        "specifications": {
+            "display": "6.7-inch AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB / 12GB",
+            "storage": "256GB / 512GB",
+            "battery": "4500 mAh",
+            "camera": "50MP primary, 50MP ultra-wide, 13MP telephoto, 3MP microscope"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Vivo X60 Pro",
+        "brand": "Vivo",
+        "price": 799,
+        "currency": "USD",
+        "image_url": "https://www.vivo.com/global/vivo-x60/images/vivo-x60-pro-hero.png",
+        "description": "Flagship smartphone with gimbal stabilization for photography.",
+        "specifications": {
+            "display": "6.56-inch AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "12GB",
+            "storage": "256GB",
+            "battery": "4200 mAh",
+            "camera": "48MP primary, 13MP ultra-wide, 13MP portrait"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Nokia XR20",
+        "brand": "Nokia",
+        "price": 549,
+        "currency": "USD",
+        "image_url": "https://www.nokia.com/phones/files/2021/07/nokia-xr20-hero.png",
+        "description": "Rugged smartphone designed for durability and outdoor use.",
+        "specifications": {
+            "display": "6.67-inch IPS LCD, 60Hz",
+            "processor": "Qualcomm Snapdragon 480",
+            "RAM": "4GB / 6GB",
+            "storage": "64GB / 128GB",
+            "battery": "4630 mAh",
+            "camera": "48MP primary, 13MP ultra-wide"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Samsung Galaxy A32",
+        "brand": "Samsung",
+        "price": 279,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a325ezkainu/gallery/in-galaxy-a32-a325-412703-sm-a325ezkainu-534117215?$1300_1038_PNG$",
+        "description": "Affordable smartphone with a vibrant display.",
+        "specifications": {
+            "display": "6.4-inch Super AMOLED, 90Hz",
+            "processor": "MediaTek Helio G80",
+            "RAM": "4GB / 6GB",
+            "storage": "64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 5MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Xiaomi Poco X3 Pro",
+        "brand": "Xiaomi",
+        "price": 249,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/poco/poco-x3-pro-hero.png",
+        "description": "Performance-oriented smartphone with a large battery.",
+        "specifications": {
+            "display": "6.67-inch IPS LCD, 120Hz",
+            "processor": "Snapdragon 860",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "5160 mAh",
+            "camera": "48MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Realme Narzo 30",
+        "brand": "Realme",
+        "price": 199,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-narzo-30/images/realme-narzo-30-hero.png",
+        "description": "Budget smartphone with decent performance and features.",
+        "specifications": {
+            "display": "6.5-inch IPS LCD, 90Hz",
+            "processor": "MediaTek Helio G95",
+            "RAM": "4GB / 6GB",
+            "storage": "64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "48MP primary, 2MP monochrome, 2MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Honor 50",
+        "brand": "Honor",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-50/hero.png",
+        "description": "Mid-range smartphone with a stylish design and good camera.",
+        "specifications": {
+            "display": "6.57-inch OLED, 120Hz",
+            "processor": "Snapdragon 778G",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4300 mAh",
+            "camera": "108MP primary, 8MP ultra-wide, 2MP depth, 2MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Apple iPhone 12 Mini",
+        "brand": "Apple",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-mini-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Compact smartphone with powerful performance.",
+        "specifications": {
+            "display": "5.4-inch Super Retina XDR",
+            "processor": "A14 Bionic chip",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB / 256GB",
+            "battery": "2227 mAh",
+            "camera": "12MP dual-camera system"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Google Pixel 4a",
+        "brand": "Google",
+        "price": 349,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_4a_just_black_key.jpg",
+        "description": "Affordable smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "5.81-inch OLED, 60Hz",
+            "processor": "Qualcomm Snapdragon 730G",
+            "RAM": "6GB",
+            "storage": "128GB",
+            "battery": "3140 mAh",
+            "camera": "12.2MP primary"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "OnePlus Nord N200",
+        "brand": "OnePlus",
+        "price": 239,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/202106/10/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Budget smartphone with 5G connectivity.",
+        "specifications": {
+            "display": "6.49-inch IPS LCD, 90Hz",
+            "processor": "Qualcomm Snapdragon 480",
+            "RAM": "4GB",
+            "storage": "64GB",
+            "battery": "5000 mAh",
+            "camera": "13MP primary, 2MP macro, 2MP monochrome"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Samsung Galaxy A52",
+        "brand": "Samsung",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a525ezkainu/gallery/in-galaxy-a52-a525-412703-sm-a525ezkainu-534117215?$1300_1038_PNG$",
+        "description": "Mid-range smartphone with a vibrant display and good camera.",
+        "specifications": {
+            "display": "6.5-inch Super AMOLED, 90Hz",
+            "processor": "Snapdragon 720G",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "64MP primary, 12MP ultra-wide, 5MP macro, 5MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Xiaomi Mi 11 Lite",
+        "brand": "Xiaomi",
+        "price": 299,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi11lite/mi11lite-hero.png",
+        "description": "Slim and lightweight smartphone with good performance.",
+        "specifications": {
+            "display": "6.55-inch AMOLED, 90Hz",
+            "processor": "Snapdragon 780G",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4250 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 5MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Sony Xperia 1 II",
+        "brand": "Sony",
+        "price": 1199,
+        "currency": "USD",
+        "image_url": "https://www.sony.com/image/ea63f1a4297de248e2d3992b848ea1ab?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
+        "description": "Flagship smartphone with a 4K display and pro camera features.",
+        "specifications": {
+            "display": "6.5-inch 4K HDR OLED, 90Hz",
+            "processor": "Snapdragon 865",
+            "RAM": "8GB",
+            "storage": "256GB",
+            "battery": "4000 mAh",
+            "camera": "12MP triple camera with Zeiss optics"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Nokia 8.3 5G",
+        "brand": "Nokia",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://www.nokia.com/phones/files/2020/12/nokia-8.3-5g-hero.png",
+        "description": "5G smartphone with a versatile camera system.",
+        "specifications": {
+            "display": "6.81-inch IPS LCD, 60Hz",
+            "processor": "Qualcomm Snapdragon 765G",
+            "RAM": "8GB",
+            "storage": "128GB",
+            "battery": "4500 mAh",
+            "camera": "64MP primary, 24MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Motorola Edge+",
+        "brand": "Motorola",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://www.motorola.com/content/dam/motorola/global/en/products/edge-plus/edge-plus-hero.png",
+        "description": "Premium smartphone with a curved display and high-end features.",
+        "specifications": {
+            "display": "6.7-inch OLED, 90Hz",
+            "processor": "Snapdragon 865",
+            "RAM": "12GB",
+            "storage": "256GB",
+            "battery": "5000 mAh",
+            "camera": "108MP primary, 16MP ultra-wide, 8MP telephoto"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Realme 8 Pro",
+        "brand": "Realme",
+        "price": 299,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-8-pro/images/realme-8-pro-hero.png",
+        "description": "Mid-range smartphone with a focus on camera performance.",
+        "specifications": {
+            "display": "6.4-inch Super AMOLED, 60Hz",
+            "processor": "Snapdragon 720G",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB",
+            "battery": "4500 mAh",
+            "camera": "108MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Honor 30 Pro",
+        "brand": "Honor",
+        "price": 599,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-30-pro/hero.png",
+        "description": "Flagship smartphone with a powerful camera and performance.",
+        "specifications": {
+            "display": "6.57-inch OLED, 90Hz",
+            "processor": "Kirin 990",
+            "RAM": "8GB",
+            "storage": "256GB",
+            "battery": "4000 mAh",
+            "camera": "50MP primary, 16MP ultra-wide, 8MP telephoto"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Apple iPhone 11",
+        "brand": "Apple",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-11-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Powerful smartphone with dual-camera system.",
+        "specifications": {
+            "display": "6.1-inch Liquid Retina HD",
+            "processor": "A13 Bionic chip",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB / 256GB",
+            "battery": "3110 mAh",
+            "camera": "12MP dual-camera system"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Google Pixel 6 Pro",
+        "brand": "Google",
+        "price": 899,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_6_pro_just_black_key.jpg",
+        "description": "Premium smartphone with advanced AI features and camera.",
+        "specifications": {
+            "display": "6.71-inch LTPO AMOLED, 120Hz",
+            "processor": "Google Tensor",
+            "RAM": "12GB",
+            "storage": "128GB / 256GB / 512GB",
+            "battery": "5003 mAh",
+            "camera": "50MP primary, 12MP ultra-wide, 48MP telephoto"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "OnePlus 8T",
+        "brand": "OnePlus",
+        "price": 749,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/202010/15/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Flagship smartphone with fast charging and smooth performance.",
+        "specifications": {
+            "display": "6.55-inch Fluid AMOLED, 120Hz",
+            "processor": "Snapdragon 865",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "48MP primary, 16MP ultra-wide, 5MP macro, 2MP monochrome"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Xiaomi Redmi Note 10 Pro",
+        "brand": "Xiaomi",
+        "price": 299,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/redmi-note-10-pro/redmi-note-10-pro-hero.png",
+        "description": "Mid-range smartphone with a high-resolution camera.",
+        "specifications": {
+            "display": "6.67-inch AMOLED, 120Hz",
+            "processor": "Snapdragon 732G",
+            "RAM": "6GB / 8GB",
+            "storage": "64GB / 128GB",
+            "battery": "5020 mAh",
+            "camera": "108MP primary, 8MP ultra-wide, 5MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Samsung Galaxy Z Fold 3",
+        "brand": "Samsung",
+        "price": 1799,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-f926bzkhinu/gallery/in-galaxy-z-fold3-5g-f926-412703-sm-f926bzkhinu-534117215?$1300_1038_PNG$",
+        "description": "Premium foldable smartphone with multitasking capabilities.",
+        "specifications": {
+            "display": "7.6-inch Dynamic AMOLED 2X, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "12GB",
+            "storage": "256GB / 512GB",
+            "battery": "4400 mAh",
+            "camera": "12MP triple camera"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Oppo A54",
+        "brand": "Oppo",
+        "price": 249,
+        "currency": "USD",
+        "image_url": "https://www.oppo.com/content/dam/oppo/global/2021/03/11/oppo-a54-hero.png",
+        "description": "Affordable smartphone with a large battery.",
+        "specifications": {
+            "display": "6.51-inch IPS LCD, 60Hz",
+            "processor": "MediaTek Helio P35",
+            "RAM": "4GB / 6GB",
+            "storage": "64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "13MP primary, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Vivo Y20",
+        "brand": "Vivo",
+        "price": 199,
+        "currency": "USD",
+        "image_url": "https://www.vivo.com/global/vivo-y20/images/vivo-y20-hero.png",
+        "description": "Budget smartphone with a stylish design.",
+        "specifications": {
+            "display": "6.51-inch IPS LCD, 60Hz",
+            "processor": "MediaTek Helio P35",
+            "RAM": "4GB",
+            "storage": "64GB",
+            "battery": "5000 mAh",
+            "camera": "13MP primary, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Honor 9A",
+        "brand": "Honor",
+        "price": 199,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-9a/hero.png",
+        "description": "Affordable smartphone with a large battery and decent performance.",
+        "specifications": {
+            "display": "6.3-inch IPS LCD, 60Hz",
+            "processor": "MediaTek Helio P22",
+            "RAM": "3GB",
+            "storage": "64GB",
+            "battery": "5000 mAh",
+            "camera": "13MP primary, 5MP ultra-wide, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Apple iPhone 12 Pro Max",
+        "brand": "Apple",
+        "price": 1099,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-max-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Flagship smartphone with advanced camera and performance.",
+        "specifications": {
+            "display": "6.7-inch Super Retina XDR",
+            "processor": "A14 Bionic chip",
+            "RAM": "6GB",
+            "storage": "128GB / 256GB / 512GB",
+            "battery": "3687 mAh",
+            "camera": "12MP triple-camera system"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Google Pixel 5a",
+        "brand": "Google",
+        "price": 449,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_5a_just_black_key.jpg",
+        "description": "Affordable smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "6.34-inch OLED, 60Hz",
+            "processor": "Qualcomm Snapdragon 765G",
+            "RAM": "6GB",
+            "storage": "128GB",
+            "battery": "4680 mAh",
+            "camera": "12.2MP primary, 16MP ultra-wide"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "OnePlus Nord CE 5G",
+        "brand": "OnePlus",
+        "price": 399,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/202106/10/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Mid-range smartphone with 5G connectivity.",
+        "specifications": {
+            "display": "6.43-inch Fluid AMOLED, 90Hz",
+            "processor": "Snapdragon 750G",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP mono"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Xiaomi Mi 10T",
+        "brand": "Xiaomi",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi10t/mi10t-hero.png",
+        "description": "Flagship smartphone with a high refresh rate display.",
+        "specifications": {
+            "display": "6.67-inch IPS LCD, 144Hz",
+            "processor": "Snapdragon 865",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "5000 mAh",
+            "camera": "64MP primary, 13MP ultra-wide, 5MP macro"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Samsung Galaxy M32",
+        "brand": "Samsung",
+        "price": 279,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m325ezkainu/gallery/in-galaxy-m32-m325-412703-sm-m325ezkainu-534117215?$1300_1038_PNG$",
+        "description": "Affordable smartphone with a large battery and display.",
+        "specifications": {
+            "display": "6.4-inch Super AMOLED, 90Hz",
+            "processor": "MediaTek Helio G80",
+            "RAM": "4GB / 6GB",
+            "storage": "64GB / 128GB",
+            "battery": "6000 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Realme GT",
+        "brand": "Realme",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-gt/images/realme-gt-hero.png",
+        "description": "Flagship smartphone with a focus on performance.",
+        "specifications": {
+            "display": "6.43-inch Super AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "64MP primary, 13MP ultra-wide, 2MP macro"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Honor V40",
+        "brand": "Honor",
+        "price": 599,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-v40/hero.png",
+        "description": "Flagship smartphone with a stylish design and powerful camera.",
+        "specifications": {
+            "display": "6.72-inch OLED, 90Hz",
+            "processor": "MediaTek Dimensity 1000+",
+            "RAM": "8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4000 mAh",
+            "camera": "50MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Apple iPhone 13 Pro",
+        "brand": "Apple",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Premium smartphone with advanced camera and performance.",
+        "specifications": {
+            "display": "6.1-inch Super Retina XDR",
+            "processor": "A15 Bionic chip",
+            "RAM": "6GB",
+            "storage": "128GB / 256GB / 512GB / 1TB",
+            "battery": "3095 mAh",
+            "camera": "12MP triple-camera system"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Google Pixel 4",
+        "brand": "Google",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_4_just_black_key.jpg",
+        "description": "Compact smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "5.7-inch OLED, 90Hz",
+            "processor": "Qualcomm Snapdragon 855",
+            "RAM": "6GB",
+            "storage": "64GB / 128GB",
+            "battery": "2800 mAh",
+            "camera": "12.2MP primary, 16MP telephoto"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "OnePlus 7T",
+        "brand": "OnePlus",
+        "price": 599,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/201909/26/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Flagship smartphone with a smooth display and fast performance.",
+        "specifications": {
+            "display": "6.55-inch Fluid AMOLED, 90Hz",
+            "processor": "Snapdragon 855+",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "3800 mAh",
+            "camera": "48MP primary, 12MP ultra-wide, 2MP macro"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Xiaomi Mi A3",
+        "brand": "Xiaomi",
+        "price": 249,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi-a3/mi-a3-hero.png",
+        "description": "Android One smartphone with a clean interface and good performance.",
+        "specifications": {
+            "display": "6.09-inch AMOLED, 60Hz",
+            "processor": "Qualcomm Snapdragon 665",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB",
+            "battery": "4030 mAh",
+            "camera": "48MP primary, 8MP ultra-wide, 2MP depth"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Samsung Galaxy S20 FE",
+        "brand": "Samsung",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g780fzvkinu/gallery/in-galaxy-s20-fe-5g-g780-412703-sm-g780fzvkinu-534117215?$1300_1038_PNG$",
+        "description": "Fan Edition smartphone with flagship features at a lower price.",
+        "specifications": {
+            "display": "6.5-inch Super AMOLED, 120Hz",
+            "processor": "Exynos 990 / Snapdragon 865",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4500 mAh",
+            "camera": "12MP primary, 12MP ultra-wide, 8MP telephoto"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Huawei Mate 40 Pro",
+        "brand": "Huawei",
+        "price": 1199,
+        "currency": "USD",
+        "image_url": "https://consumer.huawei.com/content/dam/huawei-cbg/global/images/products/mate-40-pro/mate-40-pro-hero.png",
+        "description": "Flagship smartphone with advanced camera and performance.",
+        "specifications": {
+            "display": "6.76-inch OLED, 90Hz",
+            "processor": "Kirin 9000",
+            "RAM": "8GB",
+            "storage": "256GB / 512GB",
+            "battery": "4400 mAh",
+            "camera": "50MP primary, 20MP ultra-wide, 12MP telephoto"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Oppo Reno 5 Pro",
+        "brand": "Oppo",
+        "price": 799,
+        "currency": "USD",
+        "image_url": "https://www.oppo.com/content/dam/oppo/global/2021/01/18/reno5-pro-hero.png",
+        "description": "Stylish smartphone with a focus on camera performance.",
+        "specifications": {
+            "display": "6.55-inch AMOLED, 90Hz",
+            "processor": "MediaTek Dimensity 1000+",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4350 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Vivo V21 5G",
+        "brand": "Vivo",
+        "price": 399,
+        "currency": "USD",
+        "image_url": "https://www.vivo.com/global/vivo-v21/images/vivo-v21-hero.png",
+        "description": "Stylish smartphone with a focus on selfies.",
+        "specifications": {
+            "display": "6.44-inch AMOLED, 90Hz",
+            "processor": "MediaTek Dimensity 800U",
+            "RAM": "8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4000 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP depth, 44MP front"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Apple iPhone XR",
+        "brand": "Apple",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Affordable iPhone with a great camera and performance.",
+        "specifications": {
+            "display": "6.1-inch Liquid Retina HD",
+            "processor": "A12 Bionic chip",
+            "RAM": "3GB",
+            "storage": "64GB / 128GB / 256GB",
+            "battery": "2942 mAh",
+            "camera": "12MP single-camera system"
+        },
+        "releaseYear": 2018
+    },
+    {
+        "name": "Google Pixel 3a",
+        "brand": "Google",
+        "price": 399,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_3a_just_black_key.jpg",
+        "description": "Affordable smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "5.6-inch OLED, 60Hz",
+            "processor": "Qualcomm Snapdragon 670",
+            "RAM": "4GB",
+            "storage": "64GB",
+            "battery": "3000 mAh",
+            "camera": "12.2MP primary"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "OnePlus 6T",
+        "brand": "OnePlus",
+        "price": 549,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/201811/06/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Flagship smartphone with a large display and fast performance.",
+        "specifications": {
+            "display": "6.41-inch AMOLED, 60Hz",
+            "processor": "Snapdragon 845",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "3700 mAh",
+            "camera": "16MP primary, 20MP secondary"
+        },
+        "releaseYear": 2018
+    },
+    {
+        "name": "Xiaomi Mi Mix 4",
+        "brand": "Xiaomi",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi-mix-4/mi-mix-4-hero.png",
+        "description": "Innovative smartphone with an under-display camera.",
+        "specifications": {
+            "display": "6.67-inch AMOLED, 120Hz",
+            "processor": "Snapdragon 888",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB / 512GB",
+            "battery": "4500 mAh",
+            "camera": "108MP primary, 13MP ultra-wide, 8MP telephoto"
+        },
+        "releaseYear": 2021
+    },
+    {
+        "name": "Samsung Galaxy A12",
+        "brand": "Samsung",
+        "price": 179,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a125fzkhinu/gallery/in-galaxy-a12-a125-412703-sm-a125fzkhinu-534117215?$1300_1038_PNG$",
+        "description": "Budget smartphone with a large battery and quad-camera setup.",
+        "specifications": {
+            "display": "6.5-inch PLS IPS, 60Hz",
+            "processor": "MediaTek Helio P35",
+            "RAM": "3GB / 4GB",
+            "storage": "32GB / 64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "48MP primary, 5MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Realme 7",
+        "brand": "Realme",
+        "price": 249,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-7/images/realme-7-hero.png",
+        "description": "Mid-range smartphone with a focus on performance.",
+        "specifications": {
+            "display": "6.5-inch IPS LCD, 90Hz",
+            "processor": "MediaTek Helio G95",
+            "RAM": "6GB / 8GB",
+            "storage": "64GB / 128GB",
+            "battery": "5000 mAh",
+            "camera": "64MP primary, 8MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Honor 20",
+        "brand": "Honor",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-20/hero.png",
+        "description": "Flagship smartphone with a powerful camera and performance.",
+        "specifications": {
+            "display": "6.26-inch IPS LCD, 60Hz",
+            "processor": "Kirin 980",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "3750 mAh",
+            "camera": "48MP primary, 16MP ultra-wide, 2MP macro, 2MP depth"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Apple iPhone 11 Pro",
+        "brand": "Apple",
+        "price": 999,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-11-pro-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Premium smartphone with a triple-camera system.",
+        "specifications": {
+            "display": "5.8-inch Super Retina XDR",
+            "processor": "A13 Bionic chip",
+            "RAM": "4GB",
+            "storage": "64GB / 256GB / 512GB",
+            "battery": "3046 mAh",
+            "camera": "12MP triple-camera system"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Google Pixel 2",
+        "brand": "Google",
+        "price": 349,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_2_just_black_key.jpg",
+        "description": "Compact smartphone with excellent camera performance.",
+        "specifications": {
+            "display": "5.0-inch OLED, 60Hz",
+            "processor": "Qualcomm Snapdragon 835",
+            "RAM": "4GB",
+            "storage": "64GB / 128GB",
+            "battery": "2700 mAh",
+            "camera": "12.2MP primary"
+        },
+        "releaseYear": 2017
+    },
+    {
+        "name": "OnePlus 5T",
+        "brand": "OnePlus",
+        "price": 499,
+        "currency": "USD",
+        "image_url": "https://image01.oneplus.net/ebp/201711/16/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+        "description": "Flagship smartphone with a large display and dual-camera setup.",
+        "specifications": {
+            "display": "6.01-inch AMOLED, 60Hz",
+            "processor": "Snapdragon 835",
+            "RAM": "6GB / 8GB",
+            "storage": "64GB / 128GB",
+            "battery": "3300 mAh",
+            "camera": "16MP primary, 20MP secondary"
+        },
+        "releaseYear": 2017
+    },
+    {
+        "name": "Xiaomi Redmi Note 9",
+        "brand": "Xiaomi",
+        "price": 199,
+        "currency": "USD",
+        "image_url": "https://i01.appmifile.com/webfile/globalimg/redmi-note-9/redmi-note-9-hero.png",
+        "description": "Affordable smartphone with a large battery and quad-camera setup.",
+        "specifications": {
+            "display": "6.53-inch IPS LCD, 60Hz",
+            "processor": "MediaTek Helio G85",
+            "RAM": "3GB / 4GB",
+            "storage": "64GB / 128GB",
+            "battery": "5020 mAh",
+            "camera": "48MP primary, 8MP ultra-wide, 5MP macro, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Samsung Galaxy S10e",
+        "brand": "Samsung",
+        "price": 749,
+        "currency": "USD",
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g970fzkhinu/gallery/in-galaxy-s10e-g970-412703-sm-g970fzkhinu-534117215?$1300_1038_PNG$",
+        "description": "Compact flagship smartphone with dual-camera setup.",
+        "specifications": {
+            "display": "5.8-inch Dynamic AMOLED, 60Hz",
+            "processor": "Exynos 9820 / Snapdragon 855",
+            "RAM": "6GB / 8GB",
+            "storage": "128GB / 256GB",
+            "battery": "3100 mAh",
+            "camera": "12MP primary, 16MP ultra-wide"
+        },
+        "releaseYear": 2019
+    },
+    {
+        "name": "Realme X50 Pro",
+        "brand": "Realme",
+        "price": 699,
+        "currency": "USD",
+        "image_url": "https://www.realme.com/global/realme-x50-pro/images/realme-x50-pro-hero.png",
+        "description": "Flagship smartphone with 5G connectivity and fast charging.",
+        "specifications": {
+            "display": "6.44-inch Super AMOLED, 90Hz",
+            "processor": "Snapdragon 865",
+            "RAM": "8GB / 12GB",
+            "storage": "128GB / 256GB",
+            "battery": "4200 mAh",
+            "camera": "64MP primary, 12MP ultra-wide, 8MP telephoto, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Honor 30 Lite",
+        "brand": "Honor",
+        "price": 299,
+        "currency": "USD",
+        "image_url": "https://www.hihonor.com/global/images/honor-30-lite/hero.png",
+        "description": "Affordable smartphone with a stylish design.",
+        "specifications": {
+            "display": "6.5-inch IPS LCD, 90Hz",
+            "processor": "MediaTek Dimensity 800",
+            "RAM": "6GB / 8GB",
+            "storage": "64GB / 128GB",
+            "battery": "4000 mAh",
+            "camera": "48MP primary, 8MP ultra-wide, 2MP depth"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Apple iPhone SE (2nd Gen)",
+        "brand": "Apple",
+        "price": 399,
+        "currency": "USD",
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-2nd-gen-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+        "description": "Compact smartphone with powerful performance.",
+        "specifications": {
+            "display": "4.7-inch Retina HD",
+            "processor": "A13 Bionic chip",
+            "RAM": "3GB",
+            "storage": "64GB / 128GB / 256GB",
+            "battery": "1821 mAh",
+            "camera": "12MP single-camera system"
+        },
+        "releaseYear": 2020
+    },
+    {
+        "name": "Google Pixel 6",
+        "brand": "Google",
+        "price": 599,
+        "currency": "USD",
+        "image_url": "https://store.google.com/product/images/hero_pixel_6_just_black_key.jpg",
+        "description": "Flagship smartphone with Google's custom Tensor chip.",
+        "specifications": {
+            "display": "6.4-inch AMOLED, 90Hz",
+            "processor": "Google Tensor",
+            "RAM": "8GB",
+            "storage": "128GB / 256GB",
+            "battery": "4614 mAh",
+                  "camera": "50MP primary, 12MP ultra-wide"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "OnePlus Nord",
+    "brand": "OnePlus",
+    "price": 399,
+    "currency": "USD",
+    "image_url": "https://image01.oneplus.net/ebp/202007/21/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+    "description": "Mid-range smartphone with a focus on performance and design.",
+    "specifications": {
+      "display": "6.44-inch Fluid AMOLED, 90Hz",
+      "processor": "Snapdragon 765G",
+      "RAM": "8GB / 12GB",
+      "storage": "128GB / 256GB",
+      "battery": "4115 mAh",
+      "camera": "48MP primary, 8MP ultra-wide, 5MP macro, 2MP depth"
+    },
+    "releaseYear": 2020
+  },
+  {
+    "name": "Xiaomi Poco F3",
+    "brand": "Xiaomi",
+    "price": 349,
+    "currency": "USD",
+    "image_url": "https://i01.appmifile.com/webfile/globalimg/poco/poco-f3-hero.png",
+    "description": "Performance-oriented smartphone with a high refresh rate display.",
+    "specifications": {
+      "display": "6.67-inch AMOLED, 120Hz",
+      "processor": "Snapdragon 870",
+      "RAM": "6GB / 8GB",
+      "storage": "128GB / 256GB",
+      "battery": "4520 mAh",
+      "camera": "48MP primary, 8MP ultra-wide, 5MP macro"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Samsung Galaxy A72",
+    "brand": "Samsung",
+    "price": 499,
+    "currency": "USD",
+    "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a725fzkhinu/gallery/in-galaxy-a72-a725-412703-sm-a725fzkhinu-534117215?$1300_1038_PNG$",
+    "description": "Mid-range smartphone with a large display and quad-camera setup.",
+    "specifications": {
+      "display": "6.7-inch Super AMOLED, 90Hz",
+      "processor": "Snapdragon 720G",
+      "RAM": "6GB / 8GB",
+      "storage": "128GB / 256GB",
+      "battery": "5000 mAh",
+      "camera": "64MP primary, 12MP ultra-wide, 8MP telephoto, 5MP macro"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Oppo A74 5G",
+    "brand": "Oppo",
+    "price": 299,
+    "currency": "USD",
+    "image_url": "https://www.oppo.com/content/dam/oppo/global/2021/04/15/oppo-a74-5g-hero.png",
+    "description": "Affordable 5G smartphone with a stylish design.",
+    "specifications": {
+      "display": "6.5-inch IPS LCD, 90Hz",
+      "processor": "Qualcomm Snapdragon 480",
+      "RAM": "6GB",
+      "storage": "128GB",
+      "battery": "5000 mAh",
+      "camera": "48MP primary, 2MP macro, 2MP depth"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Vivo Y31s",
+    "brand": "Vivo",
+    "price": 199,
+    "currency": "USD",
+    "image_url": "https://www.vivo.com/global/vivo-y31s/images/vivo-y31s-hero.png",
+    "description": "Budget smartphone with 5G connectivity.",
+    "specifications": {
+      "display": "6.58-inch IPS LCD, 90Hz",
+      "processor": "Qualcomm Snapdragon 480",
+      "RAM": "6GB",
+      "storage": "128GB",
+      "battery": "5000 mAh",
+      "camera": "13MP primary, 2MP depth"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Honor 9X",
+    "brand": "Honor",
+    "price": 249,
+    "currency": "USD",
+    "image_url": "https://www.hihonor.com/global/images/honor-9x/hero.png",
+    "description": "Affordable smartphone with a pop-up camera and stylish design.",
+    "specifications": {
+      "display": "6.59-inch IPS LCD, 60Hz",
+      "processor": "Kirin 810",
+      "RAM": "4GB / 6GB",
+      "storage": "64GB / 128GB",
+      "battery": "4000 mAh",
+      "camera": "48MP primary, 2MP depth"
+    },
+    "releaseYear": 2019
+  },
+  {
+    "name": "Apple iPhone 8",
+    "brand": "Apple",
+    "price": 599,
+    "currency": "USD",
+    "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-8-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+    "description": "Compact smartphone with a powerful A11 Bionic chip.",
+    "specifications": {
+      "display": "4.7-inch Retina HD",
+      "processor": "A11 Bionic chip",
+      "RAM": "2GB",
+      "storage": "64GB / 256GB",
+      "battery": "1821 mAh",
+      "camera": "12MP single-camera system"
+    },
+    "releaseYear": 2017
+  },
+  {
+    "name": "Google Pixel 3",
+    "brand": "Google",
+    "price": 599,
+    "currency": "USD",
+    "image_url": "https://store.google.com/product/images/hero_pixel_3_just_black_key.jpg",
+    "description": "Compact smartphone with excellent camera performance.",
+    "specifications": {
+      "display": "5.5-inch OLED, 60Hz",
+      "processor": "Qualcomm Snapdragon 845",
+      "RAM": "4GB",
+      "storage": "64GB / 128GB",
+      "battery": "2915 mAh",
+      "camera": "12.2MP primary"
+    },
+    "releaseYear": 2018
+  },
+  {
+    "name": "OnePlus 9R",
+    "brand": "OnePlus",
+    "price": 599,
+    "currency": "USD",
+    "image_url": "https://image01.oneplus.net/ebp/202103/23/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+    "description": "Mid-range smartphone with a focus on performance.",
+    "specifications": {
+      "display": "6.55-inch Fluid AMOLED, 120Hz",
+      "processor": "Snapdragon 870",
+      "RAM": "8GB / 12GB",
+      "storage": "128GB / 256GB",
+      "battery": "4500 mAh",
+      "camera": "48MP primary, 16MP ultra-wide, 5MP macro, 2MP monochrome"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Xiaomi Mi 10",
+    "brand": "Xiaomi",
+    "price": 699,
+    "currency": "USD",
+    "image_url": "https://i01.appmifile.com/webfile/globalimg/mi/mi10/mi10-hero.png",
+    "description": "Flagship smartphone with a high-resolution camera.",
+    "specifications": {
+      "display": "6.67-inch AMOLED, 90Hz",
+      "processor": "Snapdragon 865",
+      "RAM": "8GB / 12GB",
+      "storage": "128GB / 256GB",
+      "battery": "4780 mAh",
+      "camera": "108MP primary, 13MP ultra-wide, 2MP macro, 2MP depth"
+    },
+    "releaseYear": 2020
+  },
+  {
+    "name": "Samsung Galaxy Note 20",
+    "brand": "Samsung",
+    "price": 999,
+    "currency": "USD",
+    "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-n980fzkhinu/gallery/in-galaxy-note20-n980-412703-sm-n980fzkhinu-534117215?$1300_1038_PNG$",
+    "description": "Premium smartphone with S Pen and productivity features.",
+    "specifications": {
+      "display": "6.7-inch Dynamic AMOLED 2X, 60Hz",
+      "processor": "Exynos 990 / Snapdragon 865+",
+      "RAM": "8GB / 12GB",
+      "storage": "256GB / 512GB",
+      "battery": "4500 mAh",
+      "camera": "108MP primary, 12MP ultra-wide, 12MP telephoto"
+    },
+    "releaseYear": 2020
+  },
+  {
+    "name": "Realme C21",
+    "brand": "Realme",
+    "price": 149,
+    "currency": "USD",
+    "image_url": "https://www.realme.com/global/realme-c21/images/realme-c21-hero.png",
+    "description": "Budget smartphone with a large battery and decent performance.",
+    "specifications": {
+      "display": "6.5-inch IPS LCD, 60Hz",
+      "processor": "MediaTek Helio G35",
+      "RAM": "3GB / 4GB",
+      "storage": "32GB / 64GB",
+      "battery": "5000 mAh",
+      "camera": "13MP primary, 2MP macro, 2MP depth"
+    },
+    "releaseYear": 2021
+  },
+  {
+    "name": "Honor 20 Pro",
+    "brand": "Honor",
+    "price": 599,
+    "currency": "USD",
+    "image_url": "https://www.hihonor.com/global/images/honor-20-pro/hero.png",
+    "description": "Flagship smartphone with a powerful camera and performance.",
+    "specifications": {
+      "display": "6.26-inch IPS LCD, 60Hz",
+      "processor": "Kirin 980",
+      "RAM": "8GB",
+      "storage": "256GB",
+      "battery": "4000 mAh",
+      "camera": "48MP primary, 16MP ultra-wide, 8MP telephoto, 2MP depth"
+    },
+    "releaseYear": 2019
+  },
+  {
+    "name": "Apple iPhone 12 Pro",
+    "brand": "Apple",
+    "price": 999,
+    "currency": "USD",
+    "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-hero?wid=470&hei=556&fmt=png-alpha&.v=1631660400000",
+    "description": "Premium smartphone with advanced camera and performance.",
+    "specifications": {
+      "display": "6.1-inch Super Retina XDR",
+      "processor": "A14 Bionic chip",
+      "RAM": "6GB",
+      "storage": "128GB / 256GB / 512GB",
+      "battery": "2815 mAh",
+      "camera": "12MP triple-camera system"
+    },
+    "releaseYear": 2020
+  },
+  {
+    "name": "Google Pixel 5 XL",
+    "brand": "Google",
+    "price": 699,
+    "currency": "USD",
+    "image_url": "https://store.google.com/product/images/hero_pixel_5_xl_just_black_key.jpg",
+    "description": "Large smartphone with excellent camera performance.",
+    "specifications": {
+      "display": "6.3-inch OLED, 90Hz",
+      "processor": "Qualcomm Snapdragon 765G",
+      "RAM": "8GB",
+      "storage": "128GB",
+      "battery": "4080 mAh",
+      "camera": "12.2MP primary, 16MP ultra-wide"
+    },
+    "releaseYear": 2020
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "brand": "OnePlus",
+    "price": 969,
+    "currency": "USD",
+    "image_url": "https://image01.oneplus.net/ebp/202103/23/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
+    "description": "Flagship smartphone with Hasselblad camera partnership.",
+    "specifications": {
+      "display": "6.7-inch Fluid AMOLED, 120Hz",
+      "processor": "Snapdragon 888",
+      "RAM": "8GB / 12GB",
+      "storage": "128GB / 256GB",
+      "battery": "4500 mAh",
+      "camera": "48MP primary, 50MP ultra-wide, 8MP telephoto, 2MP monochrome"
+    },
+    "releaseYear": 2021
+  }
+]

@@ -5,7 +5,16 @@
     "price": 1199,
     "currency": "USD",
     "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-s918bzkdinu/gallery/in-galaxy-s23-ultra-s918-412703-sm-s918bzkdinu-534117215?$1300_1038_PNG$",
-    "description": "Samsung's flagship with stunning camera and display."
+    "description": "Samsung's flagship with stunning camera and display.",
+    "specifications": {
+      "display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB / 12GB",
+      "storage": "256GB / 512GB / 1TB",
+      "battery": "5000 mAh",
+      "camera": "200MP primary, 12MP ultra-wide, 10MP periscope telephoto"
+    },
+    "releaseYear": 2023
   },
   {
     "name": "iPhone 14 Pro Max",
@@ -13,7 +22,16 @@
     "price": 1299,
     "currency": "USD",
     "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-deep-purple-select?wid=470&hei=556&fmt=png-alpha&.v=1660753619946",
-    "description": "Apple's latest Pro model with advanced camera system."
+    "description": "Apple's latest Pro model with advanced camera system.",
+    "specifications": {
+      "display": "6.7-inch Super Retina XDR OLED, 120Hz",
+      "processor": "A16 Bionic chip",
+      "RAM": "6GB",
+      "storage": "128GB / 256GB / 512GB / 1TB",
+      "battery": "4352 mAh",
+      "camera": "48MP primary, 12MP ultra-wide, 12MP telephoto"
+    },
+    "releaseYear": 2022
   },
   {
     "name": "Pixel 7 Pro",
@@ -21,7 +39,16 @@
     "price": 899,
     "currency": "USD",
     "image_url": "https://store.google.com/product/images/hero_pixel_7_pro_just_black_key.jpg",
-    "description": "Google's premium phone with clean Android experience."
+    "description": "Google's premium phone with clean Android experience.",
+    "specifications": {
+      "display": "6.7-inch LTPO OLED, 120Hz",
+      "processor": "Google Tensor G2",
+      "RAM": "12GB",
+      "storage": "128GB / 256GB / 512GB",
+      "battery": "5000 mAh",
+      "camera": "50MP primary, 48MP telephoto, 12MP ultra-wide"
+    },
+    "releaseYear": 2022
   },
   {
     "name": "OnePlus 11",
@@ -29,7 +56,16 @@
     "price": 699,
     "currency": "USD",
     "image_url": "https://image01.oneplus.net/ebp/202301/20/1-m00-12-55-rb8bwl-boiqahaxaewaz64yabde3qximg0379_840_840.png",
-    "description": "Flagship killer with fast performance and charging."
+    "description": "Flagship killer with fast performance and charging.",
+    "specifications": {
+      "display": "6.7-inch AMOLED, 120Hz",
+      "processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB / 16GB",
+      "storage": "128GB / 256GB / 512GB",
+      "battery": "5000 mAh",
+      "camera": "50MP primary, 32MP telephoto, 48MP ultra-wide"
+    },
+    "releaseYear": 2023
   },
   {
     "name": "Xperia 1 IV",
@@ -37,7 +73,16 @@
     "price": 1099,
     "currency": "USD",
     "image_url": "https://www.sony.com/image/ea63f1a4297de248e2d3992b848ea1ab?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
-    "description": "Sony's professional-grade phone with 4K display."
+    "description": "Sony's professional-grade phone with 4K display.",
+    "specifications": {
+      "display": "6.5-inch 4K OLED, 120Hz",
+      "processor": "Snapdragon 8 Gen 1",
+      "RAM": "12GB",
+      "storage": "256GB",
+      "battery": "5000 mAh",
+      "camera": "12MP triple lens with Zeiss optics"
+    },
+    "releaseYear": 2022
   }
 ]
 
