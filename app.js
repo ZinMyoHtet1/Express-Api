@@ -8,6 +8,8 @@ require("./helpers/mongoose_init.js");
 
 const phoneRoutes=require("./routes/phoneRoutes")
 
+const {getPhoneStats}=require("./controllers/phoneController.js")
+
 const app = express();
 
 const port = process.env.PORT || 8000;
@@ -28,6 +30,7 @@ app.get("/api/v1", (req, res)=> {
 })
 
 app.use("/api/v1/phones",phoneRoutes)
+app.get("/api/v1/phone-stats",getPhoneStats)
 
 app.listen(port, ()=> {
     console.log(`Your server is running on port ${port}`);
