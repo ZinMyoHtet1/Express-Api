@@ -2,7 +2,7 @@ const express = require("express");
 const path= require("path");
 const morgan=require("morgan")
 const dotenv = require("dotenv");
-dotenv.config({path: "./config.env"});
+dotenv.config({path: "./config.env"})
 
 require("./helpers/mongoose_init.js");
 

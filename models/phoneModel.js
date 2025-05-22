@@ -1,4 +1,9 @@
 const mongoose = require('mongoose');
+//const fs = require("fs");
+
+//const filePath = "./texts/mongodbHistory.txt";
+
+const {phonePreSave,phonePostSave}=require("./../middlewares/phoneMiddlewares.js")
 
 const specificationsSchema = new mongoose.Schema({
     display: {
@@ -54,7 +59,8 @@ const phoneSchema = new mongoose.Schema({
         releaseYear: {
             type: Number,
             required: true
-        }
+        },
+        createdBy: String
     }, {
         timestamps: true, toJSON: {
             virtuals: true
@@ -64,13 +70,12 @@ const phoneSchema = new mongoose.Schema({
         }
     });
 
-phoneSchema.virtual("priceInKyat").get(function() {
+    phoneSchema.virtual("priceInKyat").get(function() {
         return this.price*4350
     })
-    
-phoneSchema.pre("save",function (next){
-    this.createdBy= "JYS"
-    next()
-})
 
-module.exports = mongoose.model("Phone", phoneSchema);
+    phoneSchema.pre("save", phonePreSave)
+
+    phoneSchema.post("save", phonePostSave)
+
+    module.exports = mongoose.model("Phone", phoneSchema);

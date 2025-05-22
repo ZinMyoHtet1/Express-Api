@@ -24,7 +24,7 @@ class ApiFeature {
     }
 
     sort() {
-        const sortObject = {};
+        const sortObject = {createdAt: -1};
         if (this.queryStr.sort) {
             const sortArray = this.queryStr.sort.split(",")
 
@@ -35,7 +35,6 @@ class ApiFeature {
             }
         }
         this.query = this.query.sort(sortObject);
-        console.log("sortObject",sortObject)
         return this;
     }
 
@@ -55,8 +54,6 @@ class ApiFeature {
             const limit=this.queryStr.limit*1 || 10;
             
             const skip=(page -1)*10;
-            
-            console.log(this.documentCount,"documentCount")
             
             if(skip>this.documentCount){
                 throw new Error("There is no document for this page")

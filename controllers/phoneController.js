@@ -160,8 +160,8 @@ module.exports = {
     deletePhoneById: async(req,
         res)=> {
         try {
-            const phone = await Phone.findByIdAndDelete(req.params.id)
-
+            await Phone.findByIdAndDelete(req.params.id)
+console.log("Deleted")
             res.status(204).json({
                 status: "success",
                 data: null
