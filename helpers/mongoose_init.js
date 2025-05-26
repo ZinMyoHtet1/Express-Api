@@ -6,18 +6,9 @@ if (!process.env.MONGODB_URL) {
     process.exit(1);
 }
 
-// Function to connect to MongoDB
-const connectToDatabase = async () => {
-    try {
-        await mongoose.connect(process.env.MONGODB_URL, {
-            serverSelectionTimeoutMS: 100000 // Adjust as needed
-        });
-        console.log("Connected to MongoDB...");
-    } catch (err) {
-        console.error("MongoDB connection error: " + err.message);
-        process.exit(1); // Exit the process if connection fails
-    }
-};
+mongoose.connect(process.env.MONGODB_URL, {
+    serverSelectionTimeoutMS: 100000 // Adjust as needed
+});
 
 // Connection event listeners
 mongoose.connection.on("connected", () => {
@@ -26,6 +17,7 @@ mongoose.connection.on("connected", () => {
 
 mongoose.connection.on("disconnected", () => {
     console.log("Mongoose disconnected from database");
+    process.exit(1)
 });
 
 // Handle application termination
@@ -33,7 +25,4 @@ process.on("SIGINT", async () => {
     await mongoose.connection.close();
     console.log("Mongoose connection closed due to application termination");
     process.exit(0);
-});
-
-// Connect to the database
-connectToDatabase();
+})

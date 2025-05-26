@@ -3,7 +3,13 @@ const mongoose = require('mongoose');
 
 //const filePath = "./texts/mongodbHistory.txt";
 
-const {phonePreSave,phonePostSave}=require("./../middlewares/phoneMiddlewares.js")
+const {
+    phonePreSave,
+    phonePostSave,
+    phonePreFind,
+    phonePostFind,
+    phonePreAggregate
+} = require("./../middlewares/phoneMiddlewares.js")
 
 const specificationsSchema = new mongoose.Schema({
     display: {
@@ -32,7 +38,14 @@ const phoneSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
+        validate: {
+            validator:
+            function(value) {
+                return value.length > 3 && value.length < 100
+            },
+            message: "The name must have more than 3 and less than 100 letter"
+        }
     },
     brand: {
         type: String,
@@ -40,7 +53,11 @@ const phoneSchema = new mongoose.Schema({
     },
     price: {
         type: Number,
-        required: true
+        required: true,
+     validate: {
+         validator: function(value){return value>0},
+         message: "Invalid amount of money"
+     }
     },
     currency: {
         type: String,
@@ -51,6 +68,7 @@ const phoneSchema = new mongoose.Schema({
             type: String,
             required: true
         },
+
         description: String,
         specifications: {
             type: specificationsSchema,
@@ -61,7 +79,8 @@ const phoneSchema = new mongoose.Schema({
             required: true
         },
         createdBy: String
-    }, {
+    },
+    {
         timestamps: true, toJSON: {
             virtuals: true
         },
@@ -77,5 +96,11 @@ const phoneSchema = new mongoose.Schema({
     phoneSchema.pre("save", phonePreSave)
 
     phoneSchema.post("save", phonePostSave)
+
+    phoneSchema.pre("find", phonePreFind)
+
+    //Aggregate
+
+    phoneSchema.pre("aggregate", phonePreAggregate)
 
     module.exports = mongoose.model("Phone", phoneSchema);

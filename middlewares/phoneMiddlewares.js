@@ -29,4 +29,14 @@ module.exports = {
         }
         next();
 
-    }}
+    },
+    phonePreFind: function(next){
+        this.find({releaseYear: {$lte: Date.now()}})
+        next()
+    },
+    
+    phonePreAggregate: function(next){
+        this.pipeline().unshift({$match:{releaseYear:{$lte: Date.now()}}})
+        next()
+    }
+}
