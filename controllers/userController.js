@@ -18,14 +18,14 @@ exports.userLogin = asyncErrorHandler(async function (req, res, next) {
 
   const user = await User.findOne({ email }).select("+password");
   if (!user) {
-    const error = new CustomError("Password is wrong", 400);
+    const error = new CustomError("This email is not registered yet", 400);
     next(error);
     return;
   }
 
   const correctPassword = await user.correctPassword(password, user.password);
 
-  console.log(correctPassword);
+  // console.log(correctPassword);
 
   if (!correctPassword) {
     const error = new CustomError("Password is wrong", 400);

@@ -2,7 +2,9 @@
   "name": "express-server",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "jys",
   "license": "ISC",
   "description": "",
