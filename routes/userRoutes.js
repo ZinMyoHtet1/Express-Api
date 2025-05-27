@@ -3,11 +3,11 @@ const route = express.Router();
 
 const {
   userRegister,
-  getAllUsers,
+  // getAllUsers,
   userLogin,
 } = require("./../controllers/userController.js");
 
-route.get("/", getAllUsers);
+// route.get("/", getAllUsers);
 route.post("/register", userRegister);
 route.post("/login", userLogin);
 

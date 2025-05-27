@@ -1,17 +1,23 @@
+const jwt = require("jsonwebtoken");
 const asyncErrorHandler = require("./../utils/asyncErrorHandler.js");
 const User = require("./../models/userModel.js");
 const CustomError = require("./../utils/CustomError.js");
 
-exports.getAllUsers = asyncErrorHandler(async function (req, res, next) {
-  const users = await User.find({});
-
-  res.status(200).json({
-    status: "success",
-    data: {
-      users,
-    },
+const getToken = (payload) =>
+  jwt.sign(payload, process.env.JWT_SECRET, {
+    expiresIn: "1h",
   });
-});
+
+// exports.getAllUsers = asyncErrorHandler(async function (req, res, next) {
+//   const users = await User.find({});
+
+//   res.status(200).json({
+//     status: "success",
+//     data: {
+//       users,
+//     },
+//   });
+// });
 
 exports.userLogin = asyncErrorHandler(async function (req, res, next) {
   const { email, password } = req.body;
@@ -33,8 +39,11 @@ exports.userLogin = asyncErrorHandler(async function (req, res, next) {
     return;
   }
 
+  const token = getToken({ id: user._id, email: user.email });
+
   res.status(200).json({
     status: "success",
+    token,
     data: {
       user,
     },
@@ -43,10 +52,47 @@ exports.userLogin = asyncErrorHandler(async function (req, res, next) {
 
 exports.userRegister = asyncErrorHandler(async function (req, res) {
   const user = await User.create(req.body);
+
+  const token = getToken({ id: user._id, email: user.email });
+
   res.status(200).json({
     status: "success",
+    token,
     data: {
       user,
     },
   });
 });
+
+exports.authRoute = async function (req, res, next) {
+  const token = req.headers.authorization.split(" ")[1];
+  if (!token) {
+    const error = new CustomError(
+      "There is no authorization token from client",
+      400
+    );
+    next(error);
+  }
+
+  const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+
+  if (!decodedToken) {
+    const error = new CustomError("Invalid token", 400);
+    next(error);
+  }
+
+  const user = await User.findOne({ _id: decodedToken.id });
+
+  const isPasswordChanged = await user.isPasswordChanged(decodedToken.iat);
+
+  if (isPasswordChanged) {
+    const error = new CustomError(
+      "Password was changed recently. Please login again!",
+      401
+    );
+    next(error);
+  }
+
+  req.user = user;
+  next();
+};

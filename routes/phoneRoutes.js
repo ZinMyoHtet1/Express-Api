@@ -1,24 +1,25 @@
 const express = require("express");
 const {
-    getAllPhones,
-    postNewPhone,
-    getPhoneById,
-    updatePhoneById,
-    deletePhoneById,
-} = require("../controllers/phoneController.js")
+  getAllPhones,
+  postNewPhone,
+  getPhoneById,
+  updatePhoneById,
+  deletePhoneById,
+} = require("../controllers/phoneController.js");
+
+const { authRoute } = require("../controllers/userController.js");
 
 const route = express.Router();
 
 //route.param("id",checkId)
+route.get("/", authRoute, getAllPhones);
 
-route.get("/",getAllPhones)
+route.post("/", postNewPhone);
 
-route.post("/", postNewPhone)
+route.get("/:id", getPhoneById);
 
-route.get("/:id",getPhoneById)
+route.patch("/:id", updatePhoneById);
 
-route.patch("/:id",updatePhoneById)
-
-route.delete("/:id",deletePhoneById)
+route.delete("/:id", deletePhoneById);
 
 module.exports = route;
