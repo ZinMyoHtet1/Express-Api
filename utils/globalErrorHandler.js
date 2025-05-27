@@ -1,27 +1,11 @@
-const CustomError = require("./CustomError.js");
-
-function castErrorHandler(err) {
-  const msg = `Invalid value for field ${err.path}: ${err.value}`;
-  return new CustomError(msg, 400);
-}
-
-function duplicateKeyErrorHandler(err) {
-  const msg = `There already had phone name. Please try another name`;
-  return new CustomError(msg, 400);
-}
-
-function validationErrorHandler(err) {
-  const contents = Object.values(err.errors)
-    .map((val) => val)
-    .join(". ");
-  const msg = `Validation Failed: ${contents}`;
-  return new CustomError(msg, 400);
-}
-
-function referenceErrorHandler(err) {
-  const msg = `ReferenceError : ${err.message}`;
-  return new CustomError(msg, 400);
-}
+const {
+  castErrorHandler,
+  duplicateKeyErrorHandler,
+  validationErrorHandler,
+  referenceErrorHandler,
+  mongooseErrorHandler,
+  typeErrorHandler,
+} = require("./errorHandlers.js");
 
 function devError(res, error) {
   console.log(error?.name);
@@ -52,6 +36,7 @@ module.exports = function (error, req, res, next) {
   error.status = error.status || "error";
 
   if (process.env.MODE === "development") {
+    console.log(error);
     devError(res, error);
   } else if (process.env.MODE === "production") {
     if (error?.name === "CastError") error = castErrorHandler(error);
@@ -64,6 +49,9 @@ module.exports = function (error, req, res, next) {
     if (error?.name === "ValidationError")
       error = validationErrorHandler(error);
     if (error?.name === "ReferenceError") error = referenceErrorHandler(error);
+    if (error?.name === "MongooseError") error = mongooseErrorHandler(error);
+    if (error?.name === "TypeError") error = typeErrorHandler(error);
+
     proError(res, error);
   }
 };
