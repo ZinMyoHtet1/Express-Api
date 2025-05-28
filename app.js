@@ -8,6 +8,7 @@ dotenv.config({ path: "./config.env" });
 require("./helpers/mongoose_init.js");
 
 const phoneRoutes = require("./routes/phoneRoutes.js");
+const authRoutes = require("./routes/authRoutes.js");
 const userRoutes = require("./routes/userRoutes.js");
 
 const { getPhoneStats } = require("./controllers/phoneController.js");
@@ -41,7 +42,8 @@ app.get("/api/v1", (req, res) => {
 app.get("/api/v1/phone-stats", getPhoneStats);
 
 app.use("/api/v1/phones", phoneRoutes);
-app.use("/api/v1/users", userRoutes);
+app.use("/api/v1/auth", authRoutes);
+app.use("/api/v1/user", userRoutes);
 
 app.all("/{*any}", (req, res, next) => {
   const error = new CustomError(`Route "${req.originalUrl} is not found`, 404);

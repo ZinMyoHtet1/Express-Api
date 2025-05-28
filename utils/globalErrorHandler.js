@@ -9,6 +9,7 @@ const {
 
 function devError(res, error) {
   console.log(error?.name);
+  console.log(error);
   res.status(error.statusCode).json({
     status: error.status,
     message: error.message,

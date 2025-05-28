@@ -32,6 +32,17 @@ const userSchema = new mongoose.Schema(
         "Password is not match",
       ],
     },
+    role: {
+      type: String,
+      enum: ["user", "admin", "guest"],
+      default: "user",
+    },
+    isVerified: { type: Boolean, default: false },
+    isActive: {
+      type: Boolean,
+      default: true,
+      select: false,
+    },
     picture: {
       type: String,
     },
@@ -49,6 +60,11 @@ userSchema.pre("save", async function (next) {
   this.password = hashedPassword;
 
   this.confirmPassword = undefined;
+  next();
+});
+
+userSchema.pre("find", async function (next) {
+  this.find({ isActive: { $ne: false } });
   next();
 });
 
@@ -72,7 +88,8 @@ userSchema.methods.createResetToken = function () {
     .createHash("sha256")
     .update(resetToken)
     .digest("hex");
-  this.passwordResetTokenExpires = Date.now()+(10 * 60 * 1000);
+  this.passwordResetTokenExpires = Date.now() + 10 * 60 * 1000;
   return resetToken;
 };
+
 module.exports = new mongoose.model("User", userSchema);

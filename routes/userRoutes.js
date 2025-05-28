@@ -2,17 +2,15 @@ const express = require("express");
 const route = express.Router();
 
 const {
-  userRegister,
-  // getAllUsers,
-  userLogin,
-  forgetPassword,
-  resetPassword,
+  updateMe,
+  changePassword,
+  deleteUser,
 } = require("./../controllers/userController.js");
+const { authRoute } = require("./../controllers/authController.js");
 
 // route.get("/", getAllUsers);
-route.post("/register", userRegister);
-route.post("/login", userLogin);
-route.post("/forgetPassword", forgetPassword);
-route.patch("/resetPassword/:token", resetPassword);
+route.patch("/changePassword", authRoute, changePassword);
+route.patch("/updateMe", authRoute, updateMe);
+route.patch("/deleteUser", authRoute, deleteUser);
 
 module.exports = route;

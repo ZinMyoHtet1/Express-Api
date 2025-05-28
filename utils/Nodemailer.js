@@ -1,4 +1,14 @@
 const nodemailer = require("nodemailer");
+const fs = require("fs");
+const path = require("path");
+
+const otpEmailVeriHtml = fs.readFileSync(
+  path.join(__dirname, "./../htmls/otpEmailVerificaiton.html"),
+  {
+    encoding: "utf8",
+    flag: "r",
+  }
+);
 class Nodemailer {
   constructor() {
     // super();
@@ -23,6 +33,19 @@ class Nodemailer {
       to: email,
       subject: "Reset Account Password",
       text: text,
+    });
+  };
+
+  sendVerificationOTP = async function (email, otp) {
+    const html = otpEmailVeriHtml.replace("{{OTP_CODE}}", otp);
+    return this.transporter.sendMail({
+      from: {
+        address: process.env.EMAIL,
+        name: "ZM HTET COMPANY",
+      },
+      to: email,
+      subject: "Email Verification OTP",
+      html: html,
     });
   };
 }
