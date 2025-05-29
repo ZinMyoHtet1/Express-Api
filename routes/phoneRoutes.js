@@ -14,7 +14,7 @@ const route = express.Router();
 //route.param("id",checkId)
 route.get("/", authRoute, getAllPhones);
 
-route.post("/", postNewPhone);
+route.post("/", authRoute, postNewPhone);
 
 route.get("/:id", getPhoneById);
 

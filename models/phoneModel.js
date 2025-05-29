@@ -1,106 +1,119 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 //const fs = require("fs");
 
 //const filePath = "./texts/mongodbHistory.txt";
 
 const {
-    phonePreSave,
-    phonePostSave,
-    phonePreFind,
-    phonePostFind,
-    phonePreAggregate
-} = require("./../middlewares/phoneMiddlewares.js")
+  phonePreSave,
+  phonePostSave,
+  phonePreFind,
+  phonePostFind,
+  phonePreAggregate,
+} = require("./../middlewares/phoneMiddlewares.js");
 
-const specificationsSchema = new mongoose.Schema({
+const specificationsSchema = new mongoose.Schema(
+  {
     display: {
-        type: String, required: true
+      type: String,
+      required: true,
     },
     processor: {
-        type: String, required: true
+      type: String,
+      required: true,
     },
     RAM: {
-        type: String, required: true
+      type: String,
+      required: true,
     },
     storage: {
-        type: String, required: true
+      type: String,
+      required: true,
     },
     battery: {
-        type: String, required: true
+      type: String,
+      required: true,
     },
     camera: {
-        type: String, required: true
-    }
-}, {
-    _id: false
-});
+      type: String,
+      required: true,
+    },
+  },
+  {
+    _id: false,
+  }
+);
 
-const phoneSchema = new mongoose.Schema({
+const phoneSchema = new mongoose.Schema(
+  {
     name: {
-        type: String,
-        required: true,
-        unique: true,
-        validate: {
-            validator:
-            function(value) {
-                return value.length > 3 && value.length < 100
-            },
-            message: "The name must have more than 3 and less than 100 letter"
-        }
+      type: String,
+      required: true,
+      unique: true,
+      validate: {
+        validator: function (value) {
+          return value.length > 3 && value.length < 100;
+        },
+        message: "The name must have more than 3 and less than 100 letter",
+      },
     },
     brand: {
-        type: String,
-        required: true
+      type: String,
+      required: true,
     },
     price: {
-        type: Number,
-        required: true,
-     validate: {
-         validator: function(value){return value>0},
-         message: "Invalid amount of money"
-     }
+      type: Number,
+      required: true,
+      validate: {
+        validator: function (value) {
+          return value > 0;
+        },
+        message: "Invalid amount of money",
+      },
     },
     currency: {
-        type: String,
-        uppercase: true,
-        default: "USD"
-        },
-        image_url: {
-            type: String,
-            required: true
-        },
-
-        description: String,
-        specifications: {
-            type: specificationsSchema,
-            required: true
-        },
-        releaseYear: {
-            type: Number,
-            required: true
-        },
-        createdBy: String
+      type: String,
+      uppercase: true,
+      default: "USD",
     },
-    {
-        timestamps: true, toJSON: {
-            virtuals: true
-        },
-        toObject: {
-            virtuals: true
-        }
-    });
+    image_url: {
+      type: String,
+      required: true,
+    },
 
-    phoneSchema.virtual("priceInKyat").get(function() {
-        return this.price*4350
-    })
+    description: String,
+    specifications: {
+      type: specificationsSchema,
+      required: true,
+    },
+    releaseYear: {
+      type: Number,
+      required: true,
+    },
+    createdBy: String,
+  },
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+    toObject: {
+      virtuals: true,
+    },
+  }
+);
 
-    phoneSchema.pre("save", phonePreSave)
+phoneSchema.virtual("priceInKyat").get(function () {
+  return this.price * 4350;
+});
 
-    phoneSchema.post("save", phonePostSave)
+phoneSchema.pre("save", phonePreSave);
 
-    phoneSchema.pre("find", phonePreFind)
+phoneSchema.post("save", phonePostSave);
 
-    //Aggregate
+phoneSchema.pre("find", phonePreFind);
 
-    phoneSchema.pre("aggregate", phonePreAggregate)
+//Aggregate
 
-    module.exports = mongoose.model("Phone", phoneSchema);
+phoneSchema.pre("aggregate", phonePreAggregate);
+
+module.exports = mongoose.model("Phone", phoneSchema);

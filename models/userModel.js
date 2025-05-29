@@ -63,7 +63,7 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-userSchema.pre("find", async function (next) {
+userSchema.pre(/^find/, async function (next) {
   this.find({ isActive: { $ne: false } });
   next();
 });

@@ -54,13 +54,13 @@ exports.updateMe = asyncErrorHandler(async function (req, res, next) {
       new CustomError("You can't update your password at this end point", 400)
     );
   }
-  const fields = ["username", "picture", "role"];
+  const fields = ["username", "picture"];
   const filterObj = {};
   Object.keys(req.body).forEach((opt) => {
     if (fields.includes(opt)) filterObj[opt] = req.body[opt];
   });
 
-  const updatedUser = await User.findByIdAndUpdate(req._id, filterObj, {
+  const updatedUser = await User.findByIdAndUpdate(req.user._id, filterObj, {
     runValidators: true,
     new: true,
   });
@@ -69,7 +69,6 @@ exports.updateMe = asyncErrorHandler(async function (req, res, next) {
 });
 
 exports.deleteUser = asyncErrorHandler(async function (req, res, next) {
-  // const id=req.params.id;
   await User.findByIdAndUpdate(
     req.user._id,
     { isActive: false },

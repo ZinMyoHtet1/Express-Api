@@ -17,6 +17,17 @@ const signToken = (payload) =>
 function createSendResponse(user, statusCode, res) {
   const token = signToken({ id: user._id, email: user.email });
 
+  const cookieOptions = {
+    maxAge: 60 * 1000 * 60,
+    httpOnly: true,
+  };
+
+  if ((process.env.MODE = "production")) {
+    cookieOptions.secure = true;
+  }
+
+  res.cookie("jwt", token, cookieOptions);
+
   res.status(statusCode).json({
     status: "success",
     token,

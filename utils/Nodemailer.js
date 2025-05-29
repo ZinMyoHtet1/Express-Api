@@ -9,6 +9,14 @@ const otpEmailVeriHtml = fs.readFileSync(
     flag: "r",
   }
 );
+const indexHtml = fs.readFileSync(
+  path.join(__dirname, "./../htmls/index.html"),
+  {
+    encoding: "utf8",
+    flag: "r",
+  }
+);
+
 class Nodemailer {
   constructor() {
     // super();
@@ -37,7 +45,11 @@ class Nodemailer {
   };
 
   sendVerificationOTP = async function (email, otp) {
-    const html = otpEmailVeriHtml.replace("{{OTP_CODE}}", otp);
+    const html = indexHtml
+      .replace("{{TITLE}}", "Email Verification OTP")
+      .replace("{{ROOT}}", otpEmailVeriHtml)
+      .replace("{{OTP_CODE}}", otp);
+
     return this.transporter.sendMail({
       from: {
         address: process.env.EMAIL,
